@@ -1,7 +1,8 @@
 /* Modifier le code ci dessous */
 
-document.getElementById("cliquezmoi").("", function(){
-    alert('Click')
-});
+document.getElementById('cliquezmoi').addEventListener("click", function () {
+    alert('test');
+})
+
 
 
